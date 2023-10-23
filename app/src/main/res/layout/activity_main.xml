@@ -131,7 +131,7 @@
         android:id="@+id/Deporte"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="92dp"
+        android:layout_marginStart="12dp"
         android:layout_marginTop="96dp"
         android:text="Deporte"
         app:layout_constraintStart_toStartOf="parent"
@@ -143,7 +143,7 @@
         android:layout_height="wrap_content"
         android:text="Parque Infantil"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/Deporte" />
+        app:layout_constraintTop_toBottomOf="@id/Deporte" />
 
     <Button
         android:id="@+id/Guardar"
@@ -153,7 +153,7 @@
         app:layout_constraintEnd_toStartOf="parent"
         app:layout_constraintHorizontal_bias="0.18"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/Mascotas" />
+        app:layout_constraintTop_toBottomOf="@id/Mascotas" />
 
     <CheckBox
         android:id="@+id/Restaurante"
@@ -161,7 +161,7 @@
         android:layout_height="wrap_content"
         android:text="Restaurante"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/Infantil" />
+        app:layout_constraintTop_toBottomOf="@id/Infantil" />
 
     <CheckBox
         android:id="@+id/Mascotas"
@@ -169,7 +169,7 @@
         android:layout_height="wrap_content"
         android:text="Mascotas"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/Restaurante" />
+        app:layout_constraintTop_toBottomOf="@id/Restaurante" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

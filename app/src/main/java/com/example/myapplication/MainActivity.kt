@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
 
-
+        val miDialogo = MiDialogFragment()
         //Boton de guardar
         binding.Guardar.setOnClickListener{
 
@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
                 Log.d("Mascotas ","Si")
             }
 
-
+            miDialogo.show(supportFragmentManager, "MiDialogo")
         }
     }
 
